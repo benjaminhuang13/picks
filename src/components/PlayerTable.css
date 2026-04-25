@@ -1,0 +1,46 @@
+.player-table-section {
+  margin-bottom: 24px;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 12px;
+  letter-spacing: -0.01em;
+}
+
+.player-name {
+  font-weight: 500;
+  color: var(--text);
+}
+
+.pos-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+}
+
+.num-cell {
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+}
+
+.sort-arrow {
+  font-size: 11px;
+  margin-left: 4px;
+  color: var(--accent-hover);
+}
+
+.sort-arrow.inactive {
+  color: var(--text-dim);
+}
+
+.no-sort { cursor: default !important; }
+.no-sort:hover { color: var(--text-muted) !important; }
